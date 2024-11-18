@@ -1,0 +1,25 @@
+.custom-dropdown-header{
+    display: flex;
+    width: 86vw;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #7D0096;
+    background: #FFF;
+    margin-top: 2.5%;
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    min-height: 95.2;
+}
+
+.custom-dropdown-options{
+    padding: 10px;
+    border-radius: 10px;
+    background: #FFF;
+}

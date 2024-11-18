@@ -1,0 +1,75 @@
+.upgrade-your-plan-pop-up {
+    width: 384px;
+    height: 340px;
+    border-radius: 30px;
+    background: #FFF;
+    border: 3px solid #7D0096;
+  }
+  
+
+.container-upgrade-your-plan-pop-up{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.exit-upgrade-your-plan-pop-up-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+    background-color: transparent; 
+    border: none; 
+    margin: 10px;
+}
+
+.exit-log-out-pop-up img{
+    width: 50px;
+    height: auto;
+}
+
+.header-upgrade-your-plan-pop-up-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+    margin-bottom: 5%;
+}
+
+.header-upgrade-your-plan-pop-up{
+    color: #7D0096;
+    text-align: center;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description-upgrade-your-plan-pop-up-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2.5%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.description-upgrade-your-plan-pop-up{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Gold-Plan-Pop-Up-button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+}

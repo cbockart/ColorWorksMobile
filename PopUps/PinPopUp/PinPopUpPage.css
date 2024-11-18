@@ -1,0 +1,67 @@
+.container-pin-pop-up-purple{
+    width: 377.43px;
+    height: 262px;
+    border-radius: 30px;
+    background: #790F94;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.exit-pin-pop-up-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+    background-color: transparent; 
+    border: none; 
+    margin: 10px;
+}
+
+.exit-pin-pop-up img{
+    width: 50px;
+    height: auto;
+}
+
+.description-pin-pop-up-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+}
+
+.description-pin-pop-up{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pin-pop-up-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.pin-input{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    color: white;
+    background-color: #790F94;
+    border-bottom: 5px solid #fff;
+}
+
+.error-message{
+    color: white;
+    margin: 2%;
+
+}

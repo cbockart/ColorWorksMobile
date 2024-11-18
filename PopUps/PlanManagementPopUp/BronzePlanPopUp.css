@@ -1,0 +1,95 @@
+.Bronze-Plan-Pop-Up-container{
+    width: 384px;
+    height: 465px;
+    background: #CD7F32;
+    stroke-width: 3px;
+    stroke: #FFF;
+    border-radius: 30px;
+}
+
+.exit-log-out-pop-up-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+    background-color: transparent; 
+    border: none; 
+    margin: 10px;
+    padding: 10px;
+}
+
+.exit-log-out-pop-up img{
+    width: 50px;
+    height: auto;
+}
+
+.Bronze-Plan-Pop-Up-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bronze-Plan-Pop-Up-header{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Bronze-Plan-Pop-Up-price{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Bronze-Plan-Pop-Up-feature-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.Bronze-Plan-Pop-Up-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2%;
+
+}
+
+.Bronze-Plan-Pop-Up-info-header{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Bronze-Plan-Pop-Up-info{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Bronze-Plan-Pop-Up-icon{
+    width: 10%;
+    height: auto;
+    margin-right: 2%;
+}
+
+
