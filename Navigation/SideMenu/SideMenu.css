@@ -1,0 +1,78 @@
+/* PopoverMenu.css */
+.popover-menu {
+  position: fixed;
+  top: 70px;  /* Adjust as needed */
+  left: 0;
+  width: 60%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  transform: translateY(-100%);
+}
+
+.popover-menu.open {
+  transform: translateY(0);
+}
+
+.popover-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popover-menu li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  height: 50px; /* REMOVE HARDCODING OF THIS VALUE */
+  font-family: Inter;
+}
+
+.popover-menu li:last-child {
+  border-bottom: none;
+}
+
+.menu-item {
+  display: flex; /* Use flexbox to align image and text */
+  align-items: center; /* Vertically center items */
+}
+
+.menu-icon {
+  width: 20px; /* Adjust image size as needed */
+  height: 20px;
+  margin-right: 15px; /* Add padding between image and text */
+}
+
+.menu-item-disclaimer{
+  display: flex; /* Use flexbox to align image and text */
+  align-items: center; /* Vertically center items */
+  color: #790F94;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.menu-list {
+  max-height: 100vh; /* Adjust as needed */
+  overflow-y: auto;
+}
+
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  z-index: 999;
+}
+
+.side-menu-pop-up-container{
+  position: fixed;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}

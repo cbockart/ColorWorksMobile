@@ -1,0 +1,86 @@
+.container-library-clicking-dest-home {
+  width: calc(100vw - 10%);
+  height: 275px; 
+  border-radius: 20px;
+  margin: 5%; 
+}
+  
+.text-container-library-clicking-dest-home{
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  justify-content: flex-start;
+  margin: 3%;
+}
+
+.header-library-clicking-dest-home text{
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 21px;
+}
+
+.description-library-clicking-dest-home text{
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  line-height: normal;
+}
+
+.icon-container{
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-end; 
+  justify-content: flex-end;
+  margin-bottom:2%;
+  margin-right: 2%;
+}
+
+.icon-library-clicking-dest img{
+  height: 100px;
+  width: auto;
+
+}
+
+/* For smallish screens */
+@media screen and (min-width: 539px) {
+  .container-library-clicking-dest-home {
+    width: 460px;
+    height: 250px; 
+  }
+
+}
+
+/* for IPad Mini */
+@media screen and (min-width: 768px) {
+  .container-library-clicking-dest-home {
+    width: 375px;
+    height: 250px; 
+  }
+
+}
+
+
+/* For smaller screens */
+@media screen and (min-width: 769px) {
+  .container-library-clicking-dest-home {
+    width: 400px;
+    height: 250px; 
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .container-library-clicking-dest-home {
+    width: 475px;
+    height: 250px; 
+  }
+
+}

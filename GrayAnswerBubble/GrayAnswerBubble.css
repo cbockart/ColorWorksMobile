@@ -1,0 +1,28 @@
+.AnswerBubble-gray-box{
+    display: flex;
+    flex-direction: column; 
+    align-items: right; 
+    justify-content: center;
+    background-color: #FFF; 
+    border: none; 
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding: 3%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 75%;
+    margin-left: 15%;
+}
+
+.AnswerBubble-white-text{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+

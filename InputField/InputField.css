@@ -1,0 +1,31 @@
+:root {
+    --margin-size: 60px;
+    --margin-size-height: 50px;
+}
+
+.input-rectangle {
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 18px 16px;
+    border: 1px solid #D8DADC;
+    background: #FFF;
+    border: 1px #D8DADC solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    width: 75%;
+    height: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input-rectangle input {
+    flex: 1; /* Take up the remaining space */
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins&display=swap');
+
+/* 
+To use HyperlinkButtonNavigate, add a statement that looks like the following:
+<HyperlinkButtonNavigate buttonText={"Button Time"}/> {}
+OR 
+<HyperlinkButtonNavigate buttonText={"Create an Account"}/> {}
+inside of a <div> section 
+*/
+/* HyperlibkButtonNavigate.css */
+
+.HyperlinkButtonNavigate {
+    display: contents; /* Set display to inline-block */
+    padding: 0; /* Add padding to control spacing around the text */
+    font: inherit; 
+    color: none;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+}
+.HyperlinkButtonNavigate text {
+    color: #007bff;
+    text-align: center;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-decoration: underline;
+}

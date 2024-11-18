@@ -1,0 +1,21 @@
+/*Title*/
+.purple-title-bubble{
+    display: inline-block;
+    border-radius: 30px;
+    background: rgba(83, 6, 119, 0.60);
+    height: flex;
+    margin-top: 90px; /*Room for header*/
+    padding: 0 20px; /* Add padding around the text */
+    min-width: 82%;
+    max-width: 83%;
+}
+.purple-title-bubble-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 550;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

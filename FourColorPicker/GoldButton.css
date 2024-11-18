@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins&display=swap');
+
+.gold-button {
+    background-color: #FFCC00;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 90px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    text-align: center;
+}

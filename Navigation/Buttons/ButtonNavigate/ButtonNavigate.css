@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins&display=swap');
+
+/* 
+To use ButtonNavigate, add a statement that looks like the following:
+<ButtonNavigate buttonText={"Button Time"}/> {}
+OR 
+<ButtonNavigate buttonText={"Create an Account"}/> {}
+inside of a <div> section 
+*/
+/* ButtonNavigate.css */
+
+.ButtonNavigate {
+    display: inline-block; /* Set display to inline-block */
+    padding: 5px 15px; /* Add padding to control spacing around the text */
+    padding-left: 5%; 
+    padding-right: 5%; 
+    padding-top: 10.02px; 
+    padding-bottom: 10.02px; 
+    background: #790F94; 
+    border-radius: 45.09px;
+    min-width: 80%;
+}
+.ButtonNavigate text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
