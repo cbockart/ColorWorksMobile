@@ -1,0 +1,105 @@
+.background-account-settings {
+    background-color: rgba(125, 0, 150, 0.60);
+}
+
+.header-container-account-settings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 10%;
+    margin-top: 25%;
+}
+
+.header-account-settings {
+    flex-shrink: 0;
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.body-container-account-settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 50px 50px 0px 0px;
+    background: #F5F5F5;
+    margin-top: 5%;
+    margin-bottom: -1%;
+}
+
+.header-two-container-account-settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 5%;
+}
+
+.header-two-account-settings{
+    color: #000;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-conatiner-account-settings{
+    margin: 5%;
+}
+
+.text-container-old{
+    color: rgba(125, 0, 150, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 2%;
+    margin-top: 8%;
+    margin-right: 50%
+}
+
+.text-container-new{
+    color: rgba(125, 0, 150, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 2%;
+    margin-top: 8%;
+    margin-right: 48%
+}
+
+.text-container-confirm{
+    color: rgba(125, 0, 150, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 2%;
+    margin-top: 8%;
+    margin-right: 39%;
+}
+
+.account-profile-button-confirm{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin: 2%;
+    width: 100%;
+    margin-top: 5%;
+}
+

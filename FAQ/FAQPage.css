@@ -1,0 +1,24 @@
+
+.FAQ-page-header-container{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 3%;
+}
+
+.FAQ-thin-purple-text{
+    color: #530677;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    width: 85%;
+    margin-left: 8%;
+}
+
+
+
+  
+  
+  
+  

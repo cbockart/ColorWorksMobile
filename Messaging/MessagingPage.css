@@ -1,0 +1,25 @@
+.Messaging-whole-page-container{ 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    height: auto; 
+}
+
+/*Radio button text*/
+.Messaging-thin-button-text{
+    color: #530677;
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    width: 85%;
+    margin-left: 8%;
+    opacity: 0.8;
+}
+
+.messaging-button-container{
+    text-align: center; /* Optional: Center align the button */
+    margin-top: 2%;
+    width: 85%;
+}
+

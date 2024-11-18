@@ -1,0 +1,114 @@
+.home-pages-whole-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: auto; 
+}
+
+/*Title*/
+.communication-purple-title-bubble{
+    border-radius: 30px;
+    background: rgba(83, 6, 119, 0.60);
+    width: 91%;
+    height: 65px;
+    margin-top: 90px; /*Room for header*/
+}
+.communication-purple-title-bubble-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 550;
+    margin-top: 5%;
+}
+
+/*Drop down container + text*/
+.communication-profile-container{
+    width: 180px; 
+    height: 80px; 
+    background-color: #CCCC;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.communication-change-account-text{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    width: 70%;
+    margin-top: 6%;
+}
+
+/*paragraphs + headers + text*/
+.communication-paragraph-headers{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 3%;
+}
+.communication-lessbold-lg-text{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 95%;
+    margin-bottom: 2%;
+}
+.communication-paragraph-text{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 85%;
+    margin-bottom: 5%;
+}
+.communication-paragraph-subheaders{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 550;
+    width: 85%;
+    margin-top: 4%;
+}
+
+/*New button structure*/
+.communication-new-buttons-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 1 columns each taking equal space */
+    
+    margin-left: 1.8%;  
+    column-gap: 6px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.communication-colorworks-image{
+    max-width: 100%;
+    z-index: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+/*Use for all home pages*/
+.home-pages-img-container{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-top: 3%;
+}
+
+.home-pages-button-container{
+    text-align: center; /* Optional: Center align the button */
+}

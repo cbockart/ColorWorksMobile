@@ -1,0 +1,36 @@
+/*Back arrow*/
+.threeWords-page-back-button-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+}
+
+.threewords-lessbold-lg-text{
+    color: #530677;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 75%;
+}
+
+/*New button structure*/
+.threeWords-new-buttons-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 1 columns each taking equal space */
+    
+    margin-left: 1.8%;  
+    column-gap: 6px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.threeWords-colorworks-image{
+    max-width: 100%;
+    z-index: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+

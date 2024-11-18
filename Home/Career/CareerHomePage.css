@@ -1,0 +1,79 @@
+.home-pages-whole-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    height: auto; 
+}
+
+/*paragraphs + headers + subheaders*/
+.career-paragraph-headers{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-bottom: 3%
+}
+
+.career-image-header{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 15%;
+}
+
+.career-paragraph-text{
+    color: #530677;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 450;
+    opacity: 0.8;
+    margin-bottom: 4%;
+}
+
+.career-summary-text {
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 50;
+    width: 85%;
+    opacity: 0.8; /* Lower opacity */
+    margin-left: 1%;
+}
+
+.career-paragraph-subheaders{
+    color: #530677;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+/*Use for all home pages*/
+.home-pages-img-container{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.home-pages-button-container{
+    text-align: center; /* Optional: Center align the button */
+}
+
+.career-options-container{
+    text-align: center;
+}
+
+.section-containers{
+    margin-bottom: 5%;
+    margin-top: 2%
+}

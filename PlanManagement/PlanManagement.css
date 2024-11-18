@@ -1,0 +1,167 @@
+.plan-management-whole-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    height: auto; 
+}
+
+.plan-managment-background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+.plan-management-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.plan-management-header{
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+}
+
+.bronze-container-plan{
+    width: 85vw; 
+    background-color: white; 
+    border-radius: 30px; 
+    border-style: solid;
+    border-color: #CD7F32; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+    margin-bottom: 20px;
+    padding: 2%;
+}
+
+.bronze-header-plan{
+    color:#CD7F32;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bronze-subheader{
+    color:#CD7F32;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.description-plan{
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 8px;
+}
+
+.ButtonNavigate.noOutline{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: #CD7F32;
+    outline: none;
+    
+}
+
+.silver-container-plan{
+    width: 85vw; 
+    background-color: white; 
+    border-radius: 30px; 
+    border-style: solid;
+    border-color: #C0C0C0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 2%;
+}
+
+.silver-header-plan{
+    color:#C0C0C0;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.silver-subheader{
+    color:#C0C0C0;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.gold-container-plan{
+    width: 85vw; 
+    background-color: white; 
+    border-radius: 30px; 
+    border-style: solid;
+    border-color: #D4AF37; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.gold-header-plan{
+    color:#D4AF37;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.gold-subheader{
+    color:#D4AF37;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* This is making the background blury and making sure that nothing can be clicked in this section when the pop up is on */
+.blur{
+    filter: blur(5px);
+    pointer-events: none;
+}
+
+.pop-up-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 300;
+}
+
+/*Info sentence @ bottom according to colorworks meeting*/
+.plan-management-info-text{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 90%;
+    margin-bottom: 40%;
+}

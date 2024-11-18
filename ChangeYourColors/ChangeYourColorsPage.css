@@ -1,0 +1,24 @@
+.CYCP-one-whole-page-container{
+    flex-direction: column;
+    display: flex; 
+    align-items: center; 
+    height: auto;
+}
+
+.CYCP-style-button-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;  
+    justify-content: center;
+    margin: 2%;
+    width: 65%;
+    margin-bottom: 5%;
+}
+
+.rounded-image{
+    border-radius: 6%;
+    max-width: 94%;
+    margin-bottom: 3%;
+    margin-left: 2.8%;
+}
+

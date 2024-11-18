@@ -1,0 +1,35 @@
+
+.interaction-style-header-container{
+    margin-left: 7%;
+}
+
+.interaction-style-description-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    justify-content: center;
+    margin: 3%;
+}
+
+.interaction-style-puzzle-piece-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;  
+    justify-content: space-evenly;
+}
+
+.interaction-style-puzzle-piece-description-container{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 10px;
+}
+
+.interaction-style-button-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;  
+    justify-content: center;
+    margin: 2%;
+    margin-bottom: 20%;
+}
+

@@ -1,0 +1,64 @@
+.idk-try{
+    display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100vh; /* Set minimum height to the height of the viewport */
+}
+
+.accountProfile-whole-container{
+    flex-direction: column;  
+}
+
+.account-profiles-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    margin-bottom: 8%;
+}
+
+.account-profiles-owner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.account-profiles-owner-header{
+    color: #530677;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2.5%;
+    margin-bottom: 3%;
+}
+
+.account-profiles-list-of-profiles-header{
+    color: #530677;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2.5%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.account-profiles-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    
+}
+
+.upgrade-plan-text{
+    color:#530677;
+    text-align: center;
+    font-Size: 16px;
+    font-style: normal;
+    font-Weight: 600;
+    line-height: normal;
+    margin-top: 5%;
+}

@@ -1,0 +1,182 @@
+.home-pages-whole-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: auto; 
+}
+
+/*Title*/
+.kids-purple-title-bubble{
+    border-radius: 30px;
+    background: rgba(83, 6, 119, 0.60);
+    width: 30%;
+    height: 65px;
+    margin-top: 90px; /*Room for header*/
+}
+.kids-purple-title-bubble-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 550;
+    margin-top: 12%;
+}
+
+/*Drop down container + text*/
+.kids-profile-container{
+    width: 180px; 
+    height: 80px; 
+    background-color: #CCCC;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.kids-page-colorworks-image{
+    max-width: 100%;
+    z-index: 0;
+    margin-bottom: 10%;
+}
+.kids-page-info-images-blue-1{
+    margin-top: 5%;
+}
+.kids-page-info-images2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.kids-page-resize-image-container {
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    width: 100%; /* Make the container full width of the viewport */
+    display: flex;
+}
+
+/*paragraphs + headers + text*/
+.kids-paragraph-headers{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 5%;
+}
+.kids-paragraph-text{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 90%;
+    padding: 3%;
+}
+.kids-bold-paragraph-text{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 90%;
+    padding: 5%
+}
+
+/*New addition from colorworks*/
+.kids-page-black-text{ /*text that overlays the white text bubble*/
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.kids-page-white-blue-textbox{
+    background-color: white; 
+    border: 3px solid #0000ff;
+    width: 364px;
+    height: 880px;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+.kids-page-blue-text{
+    color: #0000ff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 2%;
+}
+
+.kids-page-white-gold-textbox{
+    background-color: white; 
+    border: 3px solid #FFCC00;
+    width: 364px;
+    height: 800px;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+.kids-page-gold-text{
+    color: #FFCC00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 2%;
+}
+
+.kids-page-white-orange-textbox{
+    background-color: white; 
+    border: 3px solid #FF6600;
+    width: 364px;
+    height: 815px;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+.kids-page-orange-text{
+    color: #FF6600;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 2%;
+}
+
+.kids-page-white-green-textbox{
+    background-color: white; 
+    border: 3px solid #177D15;
+    width: 364px;
+    height: 975px;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+.kids-page-green-text{
+    color: #177D15;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 2%;
+}
+
+
+/*Use for all home pages*/
+.home-pages-img-container{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-top: 3%;
+}
+
+.home-pages-button-container{
+    text-align: center; /* Optional: Center align the button */
+}
+
+

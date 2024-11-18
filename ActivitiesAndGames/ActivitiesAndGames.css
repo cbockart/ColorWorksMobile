@@ -1,0 +1,31 @@
+.games-whole-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    height: '100vh'; 
+}
+.games-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22%;  
+    margin-bottom: 100%;
+}
+    
+.games-header{
+    /*flex-shrink:0; */
+    color:#530677;
+    text-align: center;
+    font-Size: 28px;
+    font-Family: Inter;
+    font-style: normal;
+    font-Weight: 600;
+    line-height: normal;
+    padding: 5px;
+}
+.icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

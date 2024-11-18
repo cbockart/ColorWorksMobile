@@ -1,0 +1,168 @@
+.CYCP-two-whole-page-container{
+    flex-direction: column; 
+    align-items: center;  
+    height: auto;
+}
+
+/*back arrow component*/
+.CYCP-two-page-back-button-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+/*Purple border around text*/
+.CYCP-text-frame-container{
+    border-radius: 20.04px;
+    border: 3px solid #790F94;
+    background: rgba(217, 217, 217, 0.00);
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px; /*how curved the sides are*/
+    width: 55%;
+    margin-left: 23%;
+}
+
+/*
+.new-select-interaction-text{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    display: flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 4%;
+}
+
+
+.CYCP-select-color-text{
+    color: #530677;
+    text-align: center;
+    font-family: Inter;
+    display: flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    padding: 2%;
+}
+*/
+
+.CYCP-confirm-button-container{
+    text-align: center; /* Optional: Center align the button */
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.reuse-grid-container-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns each taking equal space */
+}
+
+.grid-item-other{
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+/*New for stupid proof CYCP*/
+.CYCP-grid-container-colors {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 2 columns each taking equal space */
+    grid-gap: 0px; /* Gap between grid items */
+    margin-top: 2%;
+}
+
+.CYCP-grid-item{
+    background-color: transparent;
+    text-align: center;
+    outline: none; /* Remove the default outline */
+}
+
+.confirm-popup-overlay{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 367px;
+    height: 455px;
+    background-color: #ffffff;
+    align-content: center;
+    text-align: center;
+    outline: auto;
+    outline-color: #530677;
+    justify-content: center;
+}
+
+.cancel-button{
+    margin-top: 1%;
+    margin-left: 90%;
+}
+
+.confirm-pop-button-container{
+    display: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.CYCP-grid-item{
+    background-color: transparent;
+    text-align: center;
+    outline: none; /* Remove the default outline */
+}
+
+.CYCP-grid-item.selected {
+    background-color: #f9c5ff;
+    outline: 2px solid #530677; /* Add a purple outline when the item is selected */
+}
+
+.grid-item-other-selected{
+    background-color: #f9c5ff;
+    outline: 2px solid #530677; /* Add a purple outline when the item is selected */
+}
+
+.confirm-popup-information-text{
+    color: #530677;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 450;
+    width: 85%;
+    opacity: 0.8;
+    margin-left: 7%;
+}
+
+.blur{
+    filter: blur(5px);
+    pointer-events: none;
+}
+
+body.blur {
+    overflow: hidden; 
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 9998; /* Ensure the overlay is behind the popup but above other content */
+}

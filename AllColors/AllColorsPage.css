@@ -1,0 +1,50 @@
+/*Back arrow*/
+.AllColors-page-back-button-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.all-colors-page-header-container{
+    display: flex;
+    justify-content: center; /* Optional: Align items in the center vertically */
+    margin-bottom: 3%;
+}
+
+.allColors-button-container{
+    text-align: center; /* Optional: Center align the button */
+    margin-top: 2%;
+    margin-bottom: 20%;
+}
+
+/*New button work (will also be used on 3-words page)*/
+.allcolors-new-buttons-grid-container {
+    display: grid;
+    z-index: 1; 
+    grid-template-columns: repeat(4, 1fr); /* 1 columns each taking equal space */
+    padding: 0px;
+    margin-left: 1.8%;
+}
+ 
+.allcolors-colorworks-image{
+    max-width: 100%;
+    z-index: 0;
+    margin-bottom: 3%;
+}
+
+.stats-image-container{
+    margin-bottom: 6%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+  
+  
+  
+  

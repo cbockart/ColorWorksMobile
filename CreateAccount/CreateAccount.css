@@ -1,0 +1,214 @@
+.create-account-container{
+    margin-top: 18%;
+}
+
+.error-box-container{
+    align-items: center;
+    justify-content: center;
+    margin-left:3%;
+    width: 80%
+}
+
+.login-page-back-button-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.create-account-header-container{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-self: left;
+    text-align: left;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 10px;
+    color: #790F94;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 10%
+}
+
+.info-input-container{
+    display: flex;
+    flex-direction: column;
+    align-self: left;
+    text-align: left;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 10px;
+    width: 100%;
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+
+.terms-service-container{
+    margin-left: 1%;
+    margin-bottom: 5%;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 10px;
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.user-taken-textbox-container{
+    margin-top: 1%;
+    width: 85%;
+    align-self: center;
+}
+
+.email-taken-message{
+    border: 1px solid #1e1e1e;
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    margin-top: 10px;
+}
+
+.email-null-message{
+    border: 1px solid #1e1e1e;
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.already-have-an-account-container{
+    margin-top: 3%;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-self: center;
+    text-align: left;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 10px;
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 10%;
+}
+
+.plan-management-whole-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
+    height: auto; 
+}
+
+.plan-managment-background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-management-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.plan-management-header{
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+}
+
+.bronze-container{
+    width: 80%; 
+    background-color: white; 
+    border-radius: 30px; 
+    border-width: 3px;
+    border-style: solid;
+    border-color: #CD7F32; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.bronze-header{
+    color:#CD7F32;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.bronze-subheader{
+    color:#CD7F32;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bronze-description{
+    color: black;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.ButtonNavigate.noOutline{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: #CD7F32;
+    outline: none;
+    padding-top: 15%
+}
+/* This is making the background blury and making sure that nothing can be clicked in this section when the pop up is on */
+.blur{
+    filter: blur(5px);
+    pointer-events: none;
+}
+
+.pop-up-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+/*Info sentence @ bottom according to colorworks meeting*/
+.plan-management-info-text{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 90%;
+    margin-bottom: 40%;
+    margin-top: 5%;
+}

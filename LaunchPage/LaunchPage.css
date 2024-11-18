@@ -1,0 +1,76 @@
+.launch-page-image-container{
+    margin-top: 15%;
+    margin-left: -5%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: left;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 10px;
+    color: #790F94;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.text-container-launch-page{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    margin: 2%;
+
+    color: #530677;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-container-launch-page-bold{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    margin: 4%;
+
+    color: #530677;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.button-text-container{
+    margin-top: 3%;
+    margin-left: 1%;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    border-radius: 50px;
+    
+    color: #530677;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top-button-container{
+    text-align: center; /* Optional: Center align the button */
+    margin-top: 10%;
+    margin-bottom: 5%;
+    bottom: 10px;
+}
+
+.button-container{
+    text-align: center; /* Optional: Center align the button */
+    margin-top: 2%;
+    margin-bottom: 5%;
+    bottom: 10px;
+}

@@ -1,0 +1,64 @@
+.howToGuide-page-whole-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    height: auto; 
+}
+
+.how-to-guide-header-container{
+    display: flex;
+    flex-direction: column; /* or row, depending on your layout */
+    align-items: center; /* Optional: Align items in the center horizontally */
+    justify-content: center; /* Optional: Align items in the center vertically */
+    margin-top: 8%;
+}
+
+.container-of-symbol-containers{
+    display: flex;
+    flex-direction: column; /* or row, depending on your layout */
+    align-items: center; /* Optional: Align items in the center horizontally */
+    justify-content: center; /* Optional: Align items in the center vertically */
+    border-radius: 50px;
+    gap: 10px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.symbols-container{
+    display: flex;
+    flex-direction: row; /* or row, depending on your layout */
+    align-items: center; /* Optional: Align items in the center horizontally */
+    justify-content: center; /* Optional: Align items in the center vertically */
+    border-radius: 50px;
+    gap: 10px;
+}
+
+.GO_inncorect_colors-image-container{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+
+.GO_inncorect_colors-image{
+    width: 100px;
+    height: auto;   
+}
+
+.color-pair-container{
+    display: flex;
+    flex-direction: row; /* or row, depending on your layout */
+    align-items: center; /* Optional: Align items in the center horizontally */
+    justify-content: center; /* Optional: Align items in the center vertically */
+    border-radius: 50px;
+    gap: 50px;
+    margin-bottom: 20%;
+}
+
+.howToGuide-image-container{
+    width: 100%;
+    height: 100%;
+}

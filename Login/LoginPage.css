@@ -1,0 +1,83 @@
+.login-page-back-button-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.login-page-header-container{
+    margin-top: 40%;
+    display: flex;
+    flex-direction: row; /* or row, depending on your layout */
+    align-items: center; /* Optional: Align items in the center horizontally */
+    justify-content: center; /* Optional: Align items in the center vertically */
+    border-radius: 50px;
+    gap: 10px;
+}
+
+.login-page-header-container .loginHeader {
+    flex-shrink: 0;color: #530677;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 5px;
+}
+
+.login-page-input-container {
+    display: flex;
+    flex-direction: column; /* or row, depending on your layout */
+    align-items: center; /* Optional: Align items in the center horizontally */
+    justify-content: center; /* Optional: Align items in the center vertically */
+    border-radius: 50px;
+}
+
+.login-page-button-container {
+    text-align: center; /* Optional: Center align the button */
+    margin-top: 60%;
+}
+
+.create-an-account-container{
+    text-align: center;
+}
+
+.create-an-account-container .prompt {
+    margin-top: 20px;
+    margin-bottom: 130px;
+    align-content: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    flex-shrink: 0;
+    color: #000000;
+    font-style: normal;
+    line-height: normal;
+    .link {
+        color: #61dafb;
+    }
+}
+
+.prompt {
+    display: flex; /* Add this */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.prompt span {
+    margin-right: 5px; /* Add margin between the text and the hyperlink */
+}
+
+.prompt .hyperlink {
+    margin-right: 5px;
+}
+
+.info-empty-textbox-container{
+    margin-top: 1%;
+    width: 85%;
+    align-self: center;
+}
