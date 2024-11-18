@@ -1,0 +1,69 @@
+/*Largest title purple text*/
+.colorworks-header-text{
+    color: #530677;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 85%;
+}
+
+/*Subtitle home page tile thick purple text*/
+.colorworks-subheader-text{
+    color: #530677;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    width: 85%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+/*Instruction thicker purple text*/
+.colorworks-instruction-text{
+    color: #530677;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 4%;
+}
+
+/*Smallest title purple-opaque information text*/
+.colorworks-information-text{
+    color: #530677;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 450;
+    width: 85%;
+    opacity: 0.8;
+}
+
+.colorworks-information-bottom-text{
+    color: #530677;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 450;
+    width: 85%;
+    opacity: 0.8;
+    margin-bottom: 8%;
+}
+
+.colorworks-paragraph-splitter{
+    border-bottom: 0.5px solid;
+    border-color: #530677;
+    width: 92%;
+    margin-top: 5%;
+}
+
+.colorworks-paragraph-short-splitter{
+    border-bottom: 0.5px solid;
+    border-color: #530677;
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 43%
+}
+

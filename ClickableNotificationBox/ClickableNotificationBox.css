@@ -1,0 +1,71 @@
+.container-clickablecomponent {
+    display: flex;
+    justify-content: space-between; /* This will evenly space the left and right components */
+    align-items: center;
+    width: calc(100vw - 5%);
+    height: fit-content;
+    margin: 2.5%;
+}
+
+.container-clickablecomponent-left-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-container-clickablecomponent img {
+    width: 40px;
+    height: auto;
+    margin-right: 15px; /* Adjust margin as needed */
+}
+
+.header-clickablecomponent {
+    color: #530677;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 20px;
+}
+
+.arrow-container-clickablecomponent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2.5%;
+}
+
+.arrow-image {
+    width: 20px;
+    height: auto;
+    margin-left: 15px;
+}
+
+/* Add this CSS to your existing CSS file */
+
+.toggle-switch-component {
+    display: inline-block;
+    width: 30px; 
+    height: 30px; 
+    margin: 2%;
+    border: 3px solid #D9D9D9;
+    border-radius: 5px;
+
+  }
+  
+  .toggle-switch-component.active {
+    background-color: #530677; /* Change color when active */
+  }
+  
+  .checkbox-switch {
+    display: none;
+  }
+  
+  .checkbox-switch:checked + label {
+    background-color: #530677; /* Change color when clicked */
+  }
+  
+
+

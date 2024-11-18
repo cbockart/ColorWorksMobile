@@ -1,0 +1,32 @@
+/* DropdownButton.css */
+.dropdown-container {
+    width: 85vw;
+ 
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .up-down-arrow-image{
+    width: 35px;
+    height: auto;
+    margin-left: 15px;
+  }
+  
+  .dropdown-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sub-txt-info-list {
+    list-style-type: disc;
+    padding-left: 22%;
+    margin-top: 0px;
+    width: 95%;
+  }
+
+

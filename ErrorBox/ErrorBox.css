@@ -1,0 +1,26 @@
+.error-rectangle {
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 18px 16px;
+    border: 1px solid #D8DADC;
+    background: #FFB3B3;
+    border: 1px #D8DADC solid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: auto; /* Change height to auto */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.error-rectangle text {
+    color: #FB2222;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200px;
+    opacity: 0.8px;
+    line-height: 30px; /* 16.25px */
+    justify-content: center;
+    text-align: center;
+}
